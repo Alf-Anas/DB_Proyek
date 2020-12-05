@@ -13,3 +13,7 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+#ignore readme source folder and readme.md file
+readme_src/
+README.md
