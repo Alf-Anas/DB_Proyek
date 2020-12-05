@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    tools:ignore="Autofill,LabelFor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_detail_top">
+
+                <TextView
+                    android:id="@+id/tvNamaProyek"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:alpha="0.90"
+                    android:fontFamily="@font/fredoka_one"
+                    android:text="@string/col_nama_proyek"
+                    android:textAlignment="center"
+                    android:textSize="22sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvNamaProyek">
+
+                    <TextView
+                        android:id="@+id/tvUnitOperasi"
+                        style="@style/TVColButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/col_unit_operasi" />
+
+                    <TextView
+                        android:id="@+id/tvTahun"
+                        style="@style/TVColButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/col_tahun" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                style="@style/TVColMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/col_ptpj" />
+
+            <TextView
+                style="@style/TVColParent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/col_nama" />
+
+            <EditText
+                android:id="@+id/edtPTPJNama"
+                style="@style/EDTColParent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+
+            <TextView
+                style="@style/TVColParent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/col_alamat_telpon" />
+
+            <EditText
+                android:id="@+id/edtPTPJAlamat"
+                style="@style/EDTColParent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"/>
+
+            <TextView
+                style="@style/TVColMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/col_kontrak" />
+
+            <TextView
+                style="@style/TVColParent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/col_no_tanggal" />
+
+            <EditText
+                android:id="@+id/edtKontrakNo"
+                style="@style/EDTColParent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+
+            <TextView
+                style="@style/TVColParent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/col_nilai" />
+
+            <EditText
+                android:id="@+id/edtKontrakNilai"
+                style="@style/EDTColParent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+
+            <TextView
+                style="@style/TVColMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/col_pekerjaan" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/TVColParent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/col_mulai"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        style="@style/TVColParent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/col_selesai"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/edtPekerjaanMulai"
+                        style="@style/EDTColParent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:textAlignment="textEnd" />
+
+                    <EditText
+                        android:id="@+id/edtPekerjaanSelesai"
+                        style="@style/EDTColParent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:textAlignment="textEnd" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">DB Proyek</string>
+    <string name="app_version">© 0.12.05</string>
+    <string name="app_title">Database Proyek Tahun 1997 – 2016</string>
+    <string name="activity_main">Data Proyek</string>
+    <string name="activity_detail">Detail Proyek</string>
+
+    <string name="tag_search">Cari…</string>
+    <string name="tag_no">000</string>
+
+    <string name="toast_double_back_close">Ketuk lagi untuk menutup aplikasi ~</string>
+
+    <string name="col_nama_proyek">Nama Proyek</string>
+    <string name="col_ptpj">Pemberi Tugas / Pengguna Jasa</string>
+    <string name="col_nama">Nama</string>
+    <string name="col_alamat_telpon">Alamat / Telpon</string>
+    <string name="col_kontrak">Kontrak</string>
+    <string name="col_no_tanggal">No / Tanggal</string>
+    <string name="col_nilai">Nilai</string>
+    <string name="col_pekerjaan">Pekerjaan</string>
+    <string name="col_mulai">Mulai</string>
+    <string name="col_selesai">Selesai</string>
+    <string name="col_tahun">Tahun</string>
+    <string name="col_unit_operasi">Unit Operasi</string>
+
+    <string-array name="UNIT_OPERASI_ARRAY">
+        <item>-- SEMUA --</item>
+        <item>ENERGI</item>
+        <item>ESP</item>
+        <item>IE</item>
+        <item>INFAS</item>
+        <item>INFRAS</item>
+        <item>IPE</item>
+        <item>JASUM</item>
+        <item>JDI</item>
+        <item>JDP</item>
+        <item>JDPI</item>
+        <item>JDPII</item>
+        <item>KLK</item>
+        <item>MIGAS</item>
+        <item>MIN</item>
+        <item>MINBA</item>
+        <item>MSP</item>
+        <item>PE</item>
+        <item>PE 1</item>
+        <item>PE 2</item>
+        <item>PEMIN</item>
+        <item>PIK</item>
+        <item>PPIDN</item>
+        <item>PPIDN</item>
+        <item>SIBA</item>
+        <item>SIBAT</item>
+        <item>SIBBR</item>
+        <item>SIBLP</item>
+        <item>SIBPP</item>
+        <item>SIBRU</item>
+        <item>SICEH</item>
+        <item>SIJAK</item>
+        <item>SILAM</item>
+        <item>SIMAK</item>
+        <item>SIMED</item>
+        <item>SINAD</item>
+        <item>SIPAD</item>
+        <item>SIPAL</item>
+        <item>SIPDG</item>
+        <item>SIPKU</item>
+        <item>SISMA</item>
+        <item>SISUB</item>
+        <item>TFS</item>
+        <item>-</item>
+    </string-array>
+</resources>

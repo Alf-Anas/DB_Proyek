@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TVColMain" parent="android:Widget.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/abeezee</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@drawable/bg_primary_25_radius</item>
+    </style>
+
+    <style name="TVColButton" parent="android:Widget.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/abeezee</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/bg_detail_top_btn</item>
+    </style>
+
+    <style name="TVColParent" parent="android:Widget.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/abeezee</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+
+    <style name="EDTColParent" parent="android:Widget.EditText">
+        <item name="android:fontFamily">@font/abeezee</item>
+        <item name="android:inputType">textMultiLine|text|textCapWords</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+</resources>
